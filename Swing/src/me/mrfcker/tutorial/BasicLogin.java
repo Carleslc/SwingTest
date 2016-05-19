@@ -12,7 +12,7 @@ public class BasicLogin {
 	}
 	
 	public static void login(String user, String password) {
-		if ("admin".equals(user) && "1234".equals(password))
+		if ("admin".equals(user) && "123456".equals(password))
 			JOptionPane.showMessageDialog(null, "Logged in!", "Login successful",
 												JOptionPane.INFORMATION_MESSAGE, new ImageIcon("info_icon.gif"));
 		else
